@@ -122,7 +122,7 @@ a:focus {
     color: #fff;
 }
 
-@media(min-width:768px) {
+/*@media(min-width:768px) {*/
     .navbar-custom {
         padding: 20px 0;
         border-bottom: 0;
@@ -138,7 +138,7 @@ a:focus {
         border-bottom: 1px solid rgba(255,255,255,.3);
         background: #000;
     }
-}
+/*}*/
 
 .intro {
     display: table;
@@ -335,7 +335,7 @@ ul.banner-social-buttons {
     }
 }
 
-@media(max-width:767px) {
+/*@media(max-width:767px) {
     ul.banner-social-buttons li {
         display: block;
         margin-bottom: 20px;
@@ -345,7 +345,7 @@ ul.banner-social-buttons {
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
     }
-}
+}*/
 
 footer {
     padding: 50px 0;
