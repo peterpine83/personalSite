@@ -7,6 +7,6 @@ app.get("/", function(req, res){
     res.sendFile(__dirname + "/index.html");
 });
 
-var server = app.listen(3000, function(){
+var server = app.listen(80, function(){
     console.log("Server is listening on posrt 3000");
 });
