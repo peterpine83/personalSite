@@ -169,7 +169,8 @@ a:focus {
 }
 
 .brand-heading{
-    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+    text-shadow: 0px 1px 1px #4d4d4d;
+    /*text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;*/
 }
 
 p.intro-text{
@@ -264,6 +265,17 @@ p.intro-text{
     }
 }
 
+#aboutMe{
+    text-align: left;
+    margin-bottom: 10px
+}
+
+#aboutMeList{
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px
+
+}
 .content-section {
     padding-top: 100px;
 }
@@ -335,7 +347,7 @@ ul.banner-social-buttons {
     }
 }
 
-/*@media(max-width:767px) {
+@media(max-width:767px) {
     ul.banner-social-buttons li {
         display: block;
         margin-bottom: 20px;
@@ -345,7 +357,7 @@ ul.banner-social-buttons {
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
     }
-}*/
+}
 
 footer {
     padding: 50px 0;
